@@ -1,12 +1,14 @@
 /* ==== Base layout ==== */
 :root {
-  --bg: #f9fafb;
-  --text: #1e1e1e;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --accent: #2563eb;
+  --bg: #0d1117;          /* deep GitHub-like black */
+  --text: #f2f2f2;        /* near white text */
+  --muted: #9ca3af;       /* subtle gray for subtitles */
+  --line: #1f2937;        /* divider lines */
+  --accent: #3b82f6;      /* bright blue accent */
+  --card-bg: #161b22;     /* dark gray for cards */
   --radius: 12px;
 }
+
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -100,13 +102,14 @@ header {
 }
 
 .card {
-  background: #fff;
+  background: var(--card-bg);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 1.2rem 1.4rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 
 .card:hover {
   transform: translateY(-4px);
