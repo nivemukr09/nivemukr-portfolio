@@ -13,20 +13,18 @@
   <!-- Fonts & Styles -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="./css/style.css?v=5" />
+  <!-- IMPORTANT: relative path + version for cache-busting -->
+  <link rel="stylesheet" href="./css/style.css?v=6" />
 </head>
-
 <body>
   <header class="container">
     <div class="pill" data-aos="zoom-in">Senior DevOps Engineer · Keras Global Ltd (London)</div>
     <h1 class="title" data-aos="fade-up">Nivedha MuthuKrishnan</h1>
 
-    <!-- Typed line -->
     <p class="type" data-aos="fade-up" data-aos-delay="60">
       <span id="type"></span>
     </p>
 
-    <!-- Tech keywords -->
     <p class="subtitle" data-aos="fade-up" data-aos-delay="120">
       DevOps / Cloud — AWS · Terraform · Kubernetes · Jenkins · GitHub Actions · Helm · ArgoCD · Prometheus/Grafana
     </p>
@@ -37,7 +35,6 @@
     </div>
   </header>
 
-  <!-- Tech Stack -->
   <section class="container" data-aos="fade-up">
     <h2>Tech Stack</h2>
     <ul class="chips">
@@ -47,13 +44,11 @@
   </section>
 
   <main>
-    <!-- Projects -->
     <section id="projects" class="container" data-aos="fade-up">
       <h2>Featured Projects</h2>
       <div id="projects-grid" class="grid"></div>
     </section>
 
-    <!-- Certifications -->
     <section id="certs" class="container" data-aos="fade-up">
       <h2>Certifications</h2>
       <div class="grid grid-2">
@@ -70,11 +65,9 @@
                data-share-badge-host="https://www.credly.com"></div>
         </div>
       </div>
-      <!-- Credly embed loader (load once) -->
       <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     </section>
 
-    <!-- Contact -->
     <section id="contact" class="container" data-aos="fade-up">
       <h2>Contact</h2>
       <ul class="list">
@@ -90,9 +83,9 @@
     © <span id="y"></span> Nivedha MuthuKrishnan · nivemukr.com
   </footer>
 
-<script src="./js/app.js?v=5" defer></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js" defer onload="AOS.init({ once:true, duration:700 })"></script>
-<script>document.getElementById('y').textContent = new Date().getFullYear()</script>
-
+  <!-- IMPORTANT: relative paths + version for cache-busting -->
+  <script src="./js/app.js?v=6" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js" defer onload="AOS.init({ once:true, duration:700 })"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
 </body>
 </html>
