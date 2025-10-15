@@ -1,79 +1,60 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nivedha MuthuKrishnan — Senior DevOps Engineer</title>
-  <meta name="description"
-        content="Senior DevOps Engineer at Keras Global Ltd (London). DevOps / Cloud — AWS · Terraform · Kubernetes · GitOps." />
+  <meta charset="utf-8"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Nivedha MuthuKrishnan — DevOps / Cloud</title>
+  <meta name="description" content="DevOps / Cloud — AWS · Terraform · Kubernetes · GitOps">
+  <link rel="icon" href="/images/favicon.ico">
 
-  <!-- Favicon -->
-  <link rel="icon" href="./images/favicon.ico" />
-
-  <!-- Fonts & Styles -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- IMPORTANT: relative path + version for cache-busting -->
-  <link rel="stylesheet" href="./css/style.css?v=6" />
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header class="container">
-    <div class="pill" data-aos="zoom-in">Senior DevOps Engineer · Keras Global Ltd (London)</div>
+    <div class="pill">Open to DevOps roles · UK</div>
     <h1 class="title" data-aos="fade-up">Nivedha MuthuKrishnan</h1>
-
-    <p class="type" data-aos="fade-up" data-aos-delay="60">
-      <span id="type"></span>
-    </p>
-
-    <p class="subtitle" data-aos="fade-up" data-aos-delay="120">
+    <p class="subtitle" data-aos="fade-up" data-aos-delay="80">
       DevOps / Cloud — AWS · Terraform · Kubernetes · Jenkins · GitHub Actions · Helm · ArgoCD · Prometheus/Grafana
     </p>
-
-    <div class="actions" data-aos="fade-up" data-aos-delay="180">
+    <div class="actions" data-aos="fade-up" data-aos-delay="140">
       <a href="#projects" class="btn primary">View Projects</a>
       <a href="#contact" class="btn">Contact</a>
     </div>
   </header>
 
-  <section class="container" data-aos="fade-up">
-    <h2>Tech Stack</h2>
-    <ul class="chips">
-      <li>AWS</li><li>Terraform</li><li>Kubernetes</li><li>Jenkins</li>
-      <li>GitHub Actions</li><li>Helm</li><li>ArgoCD</li><li>Prometheus</li><li>Grafana</li>
-    </ul>
-  </section>
-
   <main>
+    <!-- Projects -->
     <section id="projects" class="container" data-aos="fade-up">
       <h2>Featured Projects</h2>
       <div id="projects-grid" class="grid"></div>
     </section>
 
+    <!-- Certifications -->
     <section id="certs" class="container" data-aos="fade-up">
       <h2>Certifications</h2>
       <div class="grid grid-2">
         <div class="card center">
           <h3 class="mb-8">HashiCorp Certified: Terraform Associate (003)</h3>
-          <div data-iframe-width="150" data-iframe-height="270"
-               data-share-badge-id="a29e4138-9c4b-43f4-b89c-44277b15327d"
-               data-share-badge-host="https://www.credly.com"></div>
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a29e4138-9c4b-43f4-b89c-44277b15327d" data-share-badge-host="https://www.credly.com"></div>
         </div>
         <div class="card center">
           <h3 class="mb-8">AWS Certified Solutions Architect – Associate</h3>
-          <div data-iframe-width="150" data-iframe-height="270"
-               data-share-badge-id="9e7f93bc-2448-46dc-b57c-f5b1cb098f20"
-               data-share-badge-host="https://www.credly.com"></div>
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9e7f93bc-2448-46dc-b57c-f5b1cb098f20" data-share-badge-host="https://www.credly.com"></div>
         </div>
       </div>
+      <!-- Credly embed loader (load once) -->
       <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="container" data-aos="fade-up">
       <h2>Contact</h2>
       <ul class="list">
         <li>Email: <a href="mailto:nivemukr09@gmail.com">nivemukr09@gmail.com</a></li>
-        <li>LinkedIn: <a href="http://www.linkedin.com/in/nivedha-muthu-krishnan" target="_blank" rel="noopener">
-          nivedha-muthu-krishnan</a></li>
+        <li>LinkedIn: <a href="http://www.linkedin.com/in/nivedha-muthu-krishnan" target="_blank" rel="noopener">nivedha-muthu-krishnan</a></li>
         <li>GitHub: <a href="https://github.com/nivemukr09" target="_blank" rel="noopener">@nivemukr09</a></li>
       </ul>
     </section>
@@ -83,8 +64,7 @@
     © <span id="y"></span> Nivedha MuthuKrishnan · nivemukr.com
   </footer>
 
-  <!-- IMPORTANT: relative paths + version for cache-busting -->
-  <script src="./js/app.js?v=6" defer></script>
+  <script src="/js/app.js" defer></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js" defer onload="AOS.init({ once:true, duration:700 })"></script>
   <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
 </body>
