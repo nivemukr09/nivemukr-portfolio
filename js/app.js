@@ -4,8 +4,6 @@ const projects = [
     title: "NiveFlix-DevSecOps",
     stack: "DevSecOps pipeline · Docker · K8s (thumbnails supported)",
     repo: "https://github.com/nivemukr09/NiveFlix-DevSecOps",
-    // Put a file like /images/niveflix-thumb.jpg to enable this:
-    image: "/images/niveflix-thumb.jpg" // optional; remove if not available
   },
   {
     title: "Fraud-detector-devops",
